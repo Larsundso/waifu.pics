@@ -1,0 +1,56 @@
+{
+ "name": "waifu-pics-api-wrapper",
+ "version": "1.0.0",
+ "description": "An up-to-date unofficial wrapper for the Waifu.pics API\n100% API Coverage\n100% Type-Script coverage",
+ "main": "./dist/index.js",
+ "type": "module",
+ "scripts": {
+  "test": "echo \"Error: no test specified\" && exit 1"
+ },
+ "repository": {
+  "type": "git",
+  "url": "git+https://github.com/Larsundso/waifu.pics.git"
+ },
+ "keywords": [
+  "waifu.pics",
+  "waifu",
+  "api",
+  "wrapper"
+ ],
+ "author": "Lars_und_so",
+ "license": "MIT",
+ "bugs": {
+  "url": "https://github.com/Larsundso/waifu.pics/issues"
+ },
+ "homepage": "https://github.com/Larsundso/waifu.pics#readme",
+ "devDependencies": {
+  "@babel/eslint-parser": "^7.18.2",
+  "@babel/eslint-plugin": "^7.17.7",
+  "@types/body-parser": "^1.19.2",
+  "@types/clone": "^2.1.1",
+  "@types/express": "^4.17.14",
+  "@types/glob": "^8.0.1",
+  "@types/moment-duration-format": "^2.2.3",
+  "@types/ms": "^0.7.31",
+  "@types/node": "^17.0.38",
+  "@types/node-schedule": "^2.1.0",
+  "@types/pg": "^8.6.6",
+  "@types/request": "^2.48.8",
+  "@types/string-similarity": "^4.0.0",
+  "@types/valid-url": "^1.0.3",
+  "@typescript-eslint/eslint-plugin": "^5.27.0",
+  "@typescript-eslint/parser": "^5.27.0",
+  "eslint": "^8.16.0",
+  "eslint-config-airbnb": "^19.0.4",
+  "eslint-config-prettier": "^8.5.0",
+  "eslint-import-resolver-typescript": "^2.7.1",
+  "eslint-plugin-import": "^2.26.0",
+  "eslint-plugin-json": "^3.1.0",
+  "eslint-plugin-jsx-a11y": "^6.5.1",
+  "eslint-plugin-prettier": "^4.0.0",
+  "prettier": "^2.6.2"
+ },
+ "dependencies": {
+  "node-fetch": "^3.3.1"
+ }
+}
