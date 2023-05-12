@@ -1,6 +1,6 @@
 {
- "name": "waifu-pics-api-wrapper",
- "version": "1.0.0",
+ "name": "waifu-pics-api",
+ "version": "1.0.1",
  "description": "An up-to-date unofficial wrapper for the Waifu.pics API\n100% API Coverage\n100% Type-Script coverage",
  "main": "./dist/index.js",
  "type": "module",
