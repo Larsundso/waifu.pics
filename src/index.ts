@@ -57,7 +57,7 @@ async function f(
   {
    headers: { 'Content-Type': 'application/json' },
    method: options?.many ? 'POST' : 'GET',
-   body: JSON.stringify({ exclude: options?.exclude ?? [] }),
+   body: options?.many ? JSON.stringify({ exclude: options?.exclude ?? [] }) : undefined,
   },
  );
 

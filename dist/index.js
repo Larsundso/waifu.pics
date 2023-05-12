@@ -4,7 +4,7 @@ async function f(category, options) {
     const response = await fetch(`${baseURL}${options?.many ? '/many' : ''}/${options?.nsfw ? 'nsfw' : 'sfw'}/${category}`, {
         headers: { 'Content-Type': 'application/json' },
         method: options?.many ? 'POST' : 'GET',
-        body: JSON.stringify({ exclude: options?.exclude ?? [] }),
+        body: options?.many ? JSON.stringify({ exclude: options?.exclude ?? [] }) : undefined,
     });
     if (!response.ok) {
         throw new Error((await response.json()).message);
