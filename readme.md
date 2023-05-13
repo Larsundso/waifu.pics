@@ -7,7 +7,7 @@ An up-to-date unofficial wrapper for the [Waifu.pics](https://waifu.pics/) API
 ## Getting started
 
 ```js
-import WaifuPics from 'waifu-pics';
+import WaifuPics from 'waifu-pics-api';
 
 await WaifuPics('neko'); // returns String
 await WaifuPics('neko', { nsfw: true }); // returns String
