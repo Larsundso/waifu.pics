@@ -1,3 +1,9 @@
+# ⚠️ DEPRECATION NOTICE
+> This package is temporarily or indefinitely deprecated, depending on whether the API will come back online or not.
+> At the time of writing this (07/05/2026) the waifu.pics domain has expired and the API is not accessible.
+> With the last update this package is made unusable, to prevent users from receiving empty responses.
+
+
 # Waifu.Pics API Wrapper
 
 An up-to-date unofficial wrapper for the [Waifu.pics](https://waifu.pics/) API
